@@ -13,10 +13,10 @@ public class EmployeeRepositoryImpl implements EmployeeRepository{
 
     public EmployeeRepositoryImpl() {
         this.employeeList = new ArrayList<>();
-        employeeList.add(new Employee(1,"Катя", 90_000));
-        employeeList.add(new Employee(2,"Дима", 102_000));
-        employeeList.add(new Employee(3,"Олег", 80_000));
-        employeeList.add(new Employee(4,"Вика", 165_000));
+        this.employeeList.add(new Employee(1,"Катя", 90_000));
+        this.employeeList.add(new Employee(2,"Дима", 102_000));
+        this.employeeList.add(new Employee(3,"Олег", 80_000));
+        this.employeeList.add(new Employee(4,"Вика", 165_000));
     }
 
     @Override
